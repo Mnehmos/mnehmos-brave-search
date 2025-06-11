@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Set target to support modern features
+      "module": "NodeNext", // Align with package.json "type": "module"
+      "moduleResolution": "NodeNext", // Use modern module resolution
+      "outDir": "./dist",
+      "rootDir": ".",
+      "strict": true, // Enable strict type-checking
+      "esModuleInterop": true, // Allows default imports from commonjs modules
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true,
+      "isolatedModules": true // Recommended by ts-jest for ESM/Node16 module kind
+    },
+    "include": [
+      "./**/*.ts"
+    ]
+  }
